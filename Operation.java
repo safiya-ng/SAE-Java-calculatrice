@@ -2,8 +2,8 @@ import java.beans.Expression;
 
 public abstract class Operation extends Expression{
 
-    private Nombre operande1;
-    private Nombre operande2;
+    private Expression operande1;
+    private Expression operande2;
 
     public Operation(Nombre op1, Nombre op2){
         this.operande1 = op1;
