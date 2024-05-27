@@ -2,9 +2,9 @@
 public class Nombre extends Expression{
 
 
-    private int valeurNombre;
+    private Expression valeurNombre;
     
-    public Nombre(int value){
+    public Nombre(Expression value){
         this.valeurNombre = value;
     }
     
