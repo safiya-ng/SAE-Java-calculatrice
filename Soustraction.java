@@ -1,6 +1,6 @@
 public class Soustraction extends Operation {
 
-    public Soustraction(Nombre op1, Nombre op2){
+    public Soustraction(Expression p1, Expression op2){
         super(op1, op2);
     }
 
