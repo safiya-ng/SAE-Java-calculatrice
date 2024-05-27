@@ -1,8 +1,3 @@
-public class abstract Expression{
-    
-    
+public abstract class Expression{
     public abstract Double valeur();
-
-
-
 }
