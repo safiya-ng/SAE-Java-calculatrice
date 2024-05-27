@@ -1,4 +1,6 @@
-public abstract class Operation {
+import java.beans.Expression;
+
+public abstract class Operation extends Expression{
 
     private Nombre operande1;
     private Nombre operande2;
