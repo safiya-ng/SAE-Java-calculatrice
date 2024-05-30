@@ -13,6 +13,6 @@ public class Division extends Operation {
     }
 
     public String toString(){
-        return "(" + super.getOperande1() + " / " + super.getOperande2() + ")";
+        return "(" + this.getOperande1() + " / " + this.getOperande2() + ")";
     }
 }
