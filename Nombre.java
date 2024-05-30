@@ -2,13 +2,13 @@
 public class Nombre extends Expression{
 
 
-    private Expression valeurNombre;
+    private Double valeurNombre;
     
-    public Nombre(Expression value){
+    public Nombre(Double value){
         this.valeurNombre = value;
     }
     
-    public int valeur(){
+    public Double valeur(){
         return this.valeurNombre;
     }
     

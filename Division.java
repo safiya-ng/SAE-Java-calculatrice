@@ -8,7 +8,7 @@ public class Division extends Operation {
        
     }
 
-    public int valeur(){
+    public Double valeur(){
         return super.getOperande1().valeur() / super.getOperande2().valeur();
     }
 
