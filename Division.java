@@ -5,7 +5,6 @@ public class Division extends Operation {
         if (op2.valeur()==0){
             throw new DivisionZeroExc();
         }
-       
     }
 
     public Double valeur(){
@@ -13,6 +12,7 @@ public class Division extends Operation {
     }
 
     public String toString(){
-        return "(" + this.getOperande1() + " / " + this.getOperande2() + ")";
+        return "(" + super.getOperande1() + " / " + super.getOperande2() + ")";
     }
+    
 }

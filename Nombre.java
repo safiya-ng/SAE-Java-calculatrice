@@ -1,6 +1,4 @@
-
 public class Nombre extends Expression{
-
 
     private Double valeurNombre;
     
@@ -15,4 +13,5 @@ public class Nombre extends Expression{
     public String toString(){
         return "" + valeurNombre;
     }
+    
 }

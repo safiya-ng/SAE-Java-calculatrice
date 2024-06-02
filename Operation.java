@@ -1,4 +1,3 @@
-
 public abstract class Operation extends Expression{
 
     private Expression operande1;
@@ -18,6 +17,4 @@ public abstract class Operation extends Expression{
     public Expression getOperande2() {
         return this.operande2;
     }
-
-
 }
